@@ -3,11 +3,3 @@
 * {
   border: 1px dotted #3eaa7c;
 }
-ul {
-   list-style-type: none;
- }
-ul li a{
-  width: 50px;
-  height: 30px;
-  display: inline;
-}

@@ -1,0 +1,9 @@
+/*sylybus style sheet*/
+
+h1 {
+    padding:5px 10px;
+}
+h2 {
+    padding:0 25px;
+    border-bottom: 1px solid #2cb334 ;
+}

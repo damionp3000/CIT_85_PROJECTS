@@ -1,0 +1,28 @@
+/* FLEX-BOX STYLE SHEET*/
+
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  width: 350px;
+  height: 350px;
+  background-color: #235c57;
+  border: 1px solid #900606;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  flex_flow: column wrap;
+  justify-content: flex-end;
+}
+
+.not_flex {
+  width: 450px;
+  height: 300px;
+  background-color:#489c70 ;
+  clear: both;
+
+}

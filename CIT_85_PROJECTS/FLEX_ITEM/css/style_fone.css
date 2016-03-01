@@ -1,4 +1,19 @@
 /* Stylesheet Flexbox One*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 80%;
+  height: 200px;
+  border: 1px solid #0b0b0d;
+}
+
+h1 {
+  font-size: 2em;
+  color: #8e3636;
+}
 .container {
   width: 600px;
   height: 300px;
@@ -12,6 +27,6 @@
 .item {
   width: 150px;
   height: 100px;
-  
+
 
 }

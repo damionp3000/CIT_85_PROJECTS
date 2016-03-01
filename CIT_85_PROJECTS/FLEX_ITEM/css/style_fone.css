@@ -1,0 +1,17 @@
+/* Stylesheet Flexbox One*/
+.container {
+  width: 600px;
+  height: 300px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.item {
+  width: 150px;
+  height: 100px;
+  
+
+}

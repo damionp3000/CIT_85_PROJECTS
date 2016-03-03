@@ -7,10 +7,14 @@
 header {
   width: 80%;
   height: 200px;
+  margin: 20px auto;
   border: 1px solid #0b0b0d;
+  text-align: center;
 }
 
 h1 {
+  padding: 10px;
+
   font-size: 2em;
   color: #8e3636;
 }
@@ -18,15 +22,16 @@ h1 {
   width: 600px;
   height: 300px;
   display: -webkit-flex;
-  display: -moz-flex;
+  /*display: -moz-flex;
   display: -ms-flex;
-  display: -o-flex;
+  display: -o-flex;*/
   display: flex;
+  border: 1px solid #182849;
 }
 
 .item {
   width: 150px;
   height: 100px;
-
+  background-color: #47b59b;
 
 }

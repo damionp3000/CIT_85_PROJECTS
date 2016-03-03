@@ -6,13 +6,7 @@ body {
 }
 .container {
   width: 80%;
-  height: 600px;
-  margin: 100px auto;
   background-color: #fff;
   -webkit-box-shadow: 0  0 10px #092634;
-  -moz-box-shadow: 0  0 10px #092634;
   box-shadow: 0  0 10px #092634;
-}
-p {
-  text-align: center;
 }

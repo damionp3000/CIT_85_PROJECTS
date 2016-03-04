@@ -1,0 +1,9 @@
+/* Stylesheet Media Query 600px*/
+
+@media (min-width:600px) {
+
+p {color: #392fa8;
+  }
+
+
+}

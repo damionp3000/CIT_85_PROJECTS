@@ -3,10 +3,22 @@
 body {
   margin: 0;
   padding: 0;
+  max-height:1000000px;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:none;
 }
 .container {
   width: 80%;
+  height: 600px;
+  margin: 20px auto;
   background-color: #fff;
   -webkit-box-shadow: 0  0 10px #092634;
+  -moz-box-shadow: 0  0 10px #092634;
   box-shadow: 0  0 10px #092634;
+  text-align: center;
+}
+p {
+  display: block;
+  font-size: 2em;
+ color: #c6562c;
 }

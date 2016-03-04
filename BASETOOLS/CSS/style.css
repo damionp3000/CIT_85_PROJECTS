@@ -1,0 +1,10 @@
+/* Basetool style sheet*/
+
+
+* {
+    box-sizing: border-box;
+    /* Disable font boosting */
+    max-height: 1000000px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
+}

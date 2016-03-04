@@ -1,0 +1,24 @@
+/*Meta Media max 600px*/
+
+
+@media (min-width: 800px) {
+
+h1, p {
+  font-size: 2em;
+}
+p {
+  color: #cc1818;
+}
+
+}
+
+@media (max-width: 998px){
+
+  h1 {
+    font-size: 1em;
+    color: #000;
+  }
+  p {
+    font-size: 2em;
+  }
+}

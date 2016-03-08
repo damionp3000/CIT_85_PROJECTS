@@ -1,4 +1,4 @@
-/* Meta Viewport stylesheet*/
+/* No Meta Viewport stylesheet*/
 
 * {
   margin: 0;
@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: column;
   width: 80%;
-  /*height: 500px;*/
   margin: 20px auto;
   border: 2px solid rgb(3, 143, 80);
 }

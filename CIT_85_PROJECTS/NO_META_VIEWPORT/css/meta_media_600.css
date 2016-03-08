@@ -1,7 +1,7 @@
 /*Meta Media max 600px*/
 
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
 
 h1, p {
   font-size: 2em;

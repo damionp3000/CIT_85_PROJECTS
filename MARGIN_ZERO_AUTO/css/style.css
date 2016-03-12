@@ -1,1 +1,58 @@
 /*Margin Zero Auto Stylesheet */
+
+html {
+  background-color: #942e2e;
+}
+
+body {
+  width: 80%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #cbc790;
+}
+
+body, div {
+  margin: 0 auto;
+  border: 1px dashed #000101;
+}
+
+div {
+  width: 500px;
+  height: 100px;
+  margin:0 auto;
+}
+.item {
+  /*width: 500px;
+  height: 100px;*/
+  background-color: #692020;
+}
+
+
+.center1 {
+  background-color: #158855;
+}
+
+.center2 {
+  background-color: #481588;
+}
+
+.center3 {
+  background-color: #58164f;
+}
+
+.center4 {
+  background-color: #cbb916;
+}
+
+.center5 {
+  background-color: #62b85e;
+}
+
+.center6 {
+  background-color: #bd5f1a;
+}
+
+.center7 {
+  background-color: #2fad78;
+}

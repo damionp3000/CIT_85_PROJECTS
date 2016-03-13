@@ -1,0 +1,31 @@
+/*Position Reative Stylesheet*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 80%;
+  height: 1600px;
+  margin: 0 auto;
+  background: #308a84;
+  border: 2px solid #131d3d;
+
+}
+
+.relative {
+  width: 50%;
+  height: 20%;
+  position: relative;
+  top: 100px;
+  left: -20px;
+  background: #753c77;
+}
+
+.depth {
+  width: 50%;
+  height: 20%;
+  margin: 30px auto;
+  background: #61c26b;
+}

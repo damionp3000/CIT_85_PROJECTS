@@ -1,0 +1,16 @@
+/* Position Layout Stylesheet*/
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+div {
+  height: 50px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  border: 2px solid #000;
+}

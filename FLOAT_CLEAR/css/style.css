@@ -1,4 +1,4 @@
-/* Float Overflow Auto Stylesheet*/
+/* Float Clear Stylesheet*/
 
 body {
   margin: 0;
@@ -21,4 +21,8 @@ section {
 }
 #fleft {
   float: left;
+}
+
+p {
+  clear:both;
 }

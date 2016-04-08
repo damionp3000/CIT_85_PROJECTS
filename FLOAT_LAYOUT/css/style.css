@@ -1,0 +1,40 @@
+/* Position Layout Stylesheet*/
+
+body, ul{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  border: 2px solid #000;
+}
+nav {
+  width: 28%;
+  height: 100%;
+  float:left;
+  background-color: #8f5656;
+}
+
+ul {
+  list-style-type: none;
+  }
+
+li {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  border-bottom: 2px solid ;
+  text-align: center;
+}
+li:hover {
+  background: #fff;
+}
+section {
+  width: 70%;
+  float: right;
+  /*display: inline-block;*/
+}

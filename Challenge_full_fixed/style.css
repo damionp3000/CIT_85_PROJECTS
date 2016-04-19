@@ -73,7 +73,7 @@ main {
   background: #fff;
 }
 article {
-  padding: 20px;
+  padding: 30px;
   height: 600px;
   flex-basis: auto;
   flex-grow: 1;

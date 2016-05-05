@@ -1,16 +1,24 @@
 /*Flexbox Container Stylesheet*/
 
 .container {
-  width: 80%;
+  width: 100%;
   border: 2px solid red;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* needed to have div's wrap */
+  justify-content: flex-end;
 }
 .item {
-  width: 300px;
-  height: 100px;
-  /*padding: 50px 20px;*/
+  /*  height: 100px;*/
+  /*  will not align text vertically if used    */
+  padding: 50px 20px;
+  /* gives dimension to text with in item/div */
   margin: 4px;
   background-color: purple;
-  flex-grow: 1;
+  /*  flex-grow: 1;*/
+  /* add to see expansion that does not justify to show function properly */
+  text-align: center;
+  /*  align-self: center;*/
+  /* will not align text without  (i.e p, a, etc...)    */
 }

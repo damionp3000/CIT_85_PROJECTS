@@ -8,6 +8,7 @@
   flex-wrap: wrap;
     /* needed to have div's wrap */
   justify-content: flex-start;
+      /* does little to assist in this setup */
 }
 .item {
 /*  height: 100px;*/

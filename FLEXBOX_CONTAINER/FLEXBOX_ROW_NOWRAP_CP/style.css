@@ -1,0 +1,30 @@
+/*Flexbox Row Nowrap Stylesheet*/
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+    /* will push out of container with smaller screens */
+/*  justify-content: space-around;*/
+      /* add to space items evenly and avoid item 10 next to container*/
+}
+.item {
+/*
+  width: 300px;
+  height: 100px;
+*/
+/*  padding: 50px 20px;*/
+      /* adding padding to center and add dimension to text pushes contnets out of container */
+      /* Due to width constraints  */
+  padding: 2%;
+  margin: 4px;
+  background-color: purple;
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}

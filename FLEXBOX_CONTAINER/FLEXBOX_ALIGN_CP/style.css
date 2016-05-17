@@ -2,15 +2,18 @@
 
 .container {
   width: 80%;
+  height: 600px;
+  margin: 0 auto;
   border: 2px solid red;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
 }
 .item {
   width: 300px;
-  height: 100px;
-  /*padding: 50px 20px;*/
+/*  height: 100px;*/
+  padding: 50px 20px;
   margin: 4px;
   background-color: purple;
-  flex-grow: 1;
+/*  flex-grow: 1;*/
 }

@@ -1,4 +1,4 @@
-/* Stylesheet Flexbox Space Between */
+/* Stylesheet Flexbox Order */
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +33,10 @@ header {
 }
 .item:nth-child(3) {
   order: 1;
+  flex-grow: 2;
+}
+.item:nth-child(5) {
+  order: -1;
   flex-grow: 2;
 }
 

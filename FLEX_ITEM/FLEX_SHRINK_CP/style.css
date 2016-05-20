@@ -1,4 +1,4 @@
-/* Stylesheet Flexbox Space Around */
+/* Stylesheet Flexbox Shrink */
 * {
   margin: 0;
   padding: 0;
@@ -19,22 +19,21 @@ header {
 .container {
   width: 80%;
   height: 300px;
+  flex-wrap: nowrap;
   border: 1px solid #182849;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .item {
   width: 150px;
-  height: auto;
+  height: 50px;
   padding: 50px 0;
   margin: 6px;
   text-align: center;
-  /*
-  flex-grow: 2;
-  flex-shrink: 0;
-  flex-basis: auto;
-  */
   background-color: #47b59b;
   border: 2px solid pink;
+}
+.item:nth-child(4) {
+  flex-shrink: 3;
 }
 
 h1 {

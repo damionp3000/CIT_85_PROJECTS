@@ -1,4 +1,4 @@
-/* Stylesheet Flexbox Align Self Flex End */
+/* Stylesheet Flexbox Align Self Center */
 * {
   margin: 0;
   padding: 0;
@@ -31,13 +31,11 @@ header {
   text-align: center;
   background-color: #47b59b;
   border: 2px solid pink;
+  align-self: center;
 }
-.item:nth-child(odd) {
-  align-self: flex-end;
-}
-
 h1 {
   padding: 10px;
   font-size: 2em;
   color: #8e3636;
 }
+
